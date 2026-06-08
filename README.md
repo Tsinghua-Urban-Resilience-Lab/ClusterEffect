@@ -7,7 +7,7 @@ This repository contains the official code and sample data implementation for th
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 The repository is organized into the following key directories:
 
@@ -22,40 +22,6 @@ The repository is organized into the following key directories:
 │   ├── scale_invariance.py              # Validation of spatial scale-invariance
 │   └── visitation_spatial_pattern.py   # Spatial patterns of visitation frequencies
 ├── data/ 
-└── README.md
-
-没问题，根据你提供的真实文件列表，我已经把代码文件和数据样本精确地对应进去了。
-以下是为你更新后的 README.md 内容：
-Markdown
-# The cluster effect: How spatial grouping governs human mobility
-
-This repository contains the official code and sample dataset implementation for the paper:
-
-**The cluster effect: How spatial grouping governs human mobility**
-*Xinyuan Zhang<sup>a,b</sup>, Qi Wang<sup>c</sup>, Bo Huang<sup>b</sup>, Dongping Fang<sup>a</sup>, Nan Li<sup>a,*</sup>*
-
-<sup>a</sup> *Department of Construction Management, Tsinghua University, Beijing 100084, China* <sup>b</sup> *Department of Geography, The University of Hong Kong, Hong Kong, China* <sup>c</sup> *Department of Civil and Environmental Engineering, Northeastern University, Boston MA 02115, United States* <sup>*</sup> *Corresponding author: [Insert Email Address]*
-
----
-
-## 📂 Repository Structure
-
-The repository is organized into the following directories:
-
-```text
-├── code/
-│   ├── EPR_model.py                     # Baseline Exploration and Return (EPR) mobility model
-│   ├── cluster_based_model.py           # The proposed cluster-based human mobility model
-│   ├── inter&intra_mobility_pattern.py  # Analysis of mobility behaviors within and between spatial clusters
-│   ├── location_cluster_correlation.py  # Statistical correlation between spatial locations and groupings
-│   ├── model_parameters.py              # Configuration of simulation and empirical parameters
-│   ├── post_processing_trajectory_data.py # Post-processing pipeline for human trajectory analysis
-│   ├── scale_invariance.py              # Validation of spatial scale-invariance and Zipf's law features
-│   ├── test.py                          # Unit tests and pipeline validation scripts
-│   └── visitation_spatial_pattern.py   # Spatial patterns of site visitation frequencies
-├── data/
-│   ├── pnew_guangzhou.npy               # Sample preprocessed baseline probability matrix for Guangzhou
-│   └── pnew_in_cluster_cepr2.npy        # Sample clustered transition probability matrix for validation
 └── README.md
 
 1. code/
